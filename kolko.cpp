@@ -264,7 +264,7 @@ int main() {
 
   if (mode == 1) {
     int difficulty;
-    cout << "Wybierz tryb AI (1 - s³aby, 2 - inteligentny): ";
+    cout << "Wybierz tryb AI (1 - slaby, 2 - inteligentny): ";
     cin >> difficulty;
     ConsoleRunner runner(false, difficulty, "Gracz", 'X');
     runner.play();
